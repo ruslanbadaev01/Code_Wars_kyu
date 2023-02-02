@@ -5,9 +5,7 @@ function pigIt(str) {
     let firstLet = map1[i].shift();
     map1[i].push(firstLet + "ay");
   }
-
   const map2 = map1.map((i) => i.join(""));
-
   const result = map2.join(" ");
   return result;
 }
